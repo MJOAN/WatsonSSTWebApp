@@ -2,6 +2,8 @@
 
 The [Speech to Text](https://www.ibm.com/watson/services/speech-to-text/) service uses IBM's speech recognition capabilities to convert speech in multiple languages into text. The transcription of incoming audio is continuously sent back to the client with minimal delay, and it is corrected as more speech is heard.
 
+![screenshot](screenshot.png)
+
 ## Getting started
 
 ### Run locally as Node.js application
