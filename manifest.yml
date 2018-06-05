@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: WatsonSpeechtoTextWebApp
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256M
+  domain: mybluemix.net
+  host: watson-speech-to-text-basic-kllps
+  services:
+    - watson-speech-to-text-we-speech-to--1528156652022

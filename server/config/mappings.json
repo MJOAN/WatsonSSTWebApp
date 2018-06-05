@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "watson_speech_to_text_password": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.password",
+      "env:service_watson_speech_to_text:$.password",
+      "env:watson_speech_to_text_password",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_password",
+      "file:localdev-config.json$.watson_speech_to_text_password"
+    ]
+  },
+  "watson_speech_to_text": {
+    "credentials": {
+      "searchPatterns": [
+        "cloudfoundry:watson_speech_to_text",
+        "env:watson_speech_to_text_credentials",
+        "file://localdev-config.json:watson_speech_to_text_credentials"
+      ]
+    }
+  },
+  "watson_speech_to_text_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.url",
+      "env:service_watson_speech_to_text:$.url",
+      "env:watson_speech_to_text_url",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_url",
+      "file:localdev-config.json$.watson_speech_to_text_url"
+    ]
+  },
+  "watson_speech_to_text_username": {
+    "searchPatterns": [
+      "cloudfoundry:$['speech_to_text'][0].credentials.username",
+      "env:service_watson_speech_to_text:$.username",
+      "env:watson_speech_to_text_username",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_username",
+      "file:localdev-config.json$.watson_speech_to_text_username"
+    ]
+  }
+}
