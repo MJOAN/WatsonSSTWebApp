@@ -1,5 +1,5 @@
 # Speech to Text starter kit [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
-# This was a quick start for me to learn this text-to-speech service from IBM Bluemix. 
+This was a quick start for me to learn this text-to-speech service from IBM Bluemix. 
 
 ![screenshot](screenshot.png)
 
